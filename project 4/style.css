@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar-container {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+.navbar-container div {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-overflow: hidden;
+}
+.navbar-container div img {
+  position: relative;
+  top: 10px;
+  left: -60px;
+  inline-size: 85px;
+}
+.navbar-container div ul {
+  position: relative;
+  top: 0;
+  left: -50px;
+  display: inline;
+  font-family: Arial;
+}
+.navbar-container div li {
+  position: relative;
+  top: -5px;
+  left: -20px;
+  display: inline-block;
+  word-spacing: 0px;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: Helvetica;
+  color: black;
+  font-weight: bold;
+  font-size: 9px;
+  opacity: 0.5;
+  text-transform: capitalize;
+  text-overflow: 100%;
+}
+.navbar-container div li:hover {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.navbar-container div button {
+  padding: 6px;
+  border-radius: 7px;
+  font-size: 8px;
+  background-color: blueviolet;
+  position: relative;
+  top: -5px;
+  left: 20px;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border: transparent;
+}
+.navbar-container div button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  box-shadow: 0px 0px 6px blueviolet;
+}
+.banner-container {
+  display: inline-block;
+  width: 99%;
+  height: 500px;
+  text-align: center;
+}
+.banner-container div {
+  display: inline-block;
+  width: 49.6%;
+  height: 500px;
+  text-align: center;
+  overflow: visible;
+}
+.banner-container div h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: rgb(66, 0, 110);
+  font-family: Arial;
+  display: inline-block;
+  overflow: hidden;
+  width: 60%;
+  height: 100px;
+  position: relative;
+  top: -90px;
+  left: -20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.banner-container div h1 span {
+  color: rgb(129, 50, 255);
+}
+.banner-container div p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  width: 71%;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 30px;
+  text-align: left;
+  position: relative;
+  top: -80px;
+  left: -25px;
+  color: black;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 8px;
+  font-family: Arial;
+}
+.banner-container div button {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  width: 35%;
+  height: 37px;
+  text-align: center;
+  position: relative;
+  top: -70px;
+  left: -45px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Arial;
+  border-radius: 5px;
+  border: transparent;
+  background-color: blueviolet;
+  color: white;
+}
+
+.banner-container div button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  box-shadow: 0px 0px 6px blueviolet;
+}
+
+.banner-container div img {
+  inline-size: 430px;
+  position: relative;
+  top: 30px;
+  left: -70px;
+  overflow: visible;
+}
